@@ -3,12 +3,11 @@ from time import sleep
 from colorama import Fore
 import sys
 
+# پاک کردن صفحه
 system("clear")
 
-bnr = (Fore.LIGHTGREEN_EX+f"""
-
+bnr = Fore.LIGHTGREEN_EX + f"""
    ID_Telegram = M_r_erorr
-  
    ID_Channel-telegram = 
 
       ╲ ▁▂▂▂▁ ╱
@@ -24,13 +23,15 @@ bnr = (Fore.LIGHTGREEN_EX+f"""
      ███████████        
       ██     ██         
       ██     ██
-""")
+"""
+
 for i in bnr:
-  sys.stdout.write(i)
-  sys.stdout.flush()
-  sleep(0.009)
+    sys.stdout.write(i)
+    sys.stdout.flush()
+    sleep(0.009)
 print("")
-name = input(Fore.LIGHTYELLOW_EX+"""
+
+name = input(Fore.LIGHTYELLOW_EX + """
 (1) DSceapt
 (2) Sites sensitive
 (3) Bug
@@ -73,7 +74,6 @@ name = input(Fore.LIGHTYELLOW_EX+"""
 (40) Sensitizer group
 Select the number: """)
 print("")
-
 if name == "1":
   print(Fore.LIGHTRED_EX+"http://radio-tacklorix.xlphp.net  |  http://dxprit-sxs-support-bot-hsck-fil.phpnet.us/fuk.sxs.photos.html   |  http://dxprit-sxs-support-bot-hsck-fil.phpnet.us/fuk.sxs.photos.html")
   print("")
